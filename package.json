@@ -1,0 +1,19 @@
+{
+    "name": "MouseGuardBot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/bot.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon src/bot.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^12.1.1",
+        "moment": "^2.24.0",
+        "nodemon": "^2.0.2",
+        "rpg-dice-roller": "^4.0.2"
+    }
+}
