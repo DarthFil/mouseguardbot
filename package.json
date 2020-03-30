@@ -1,5 +1,5 @@
 {
-    "name": "MouseGuardBot",
+    "name": "mouseguardbot",
     "version": "1.0.0",
     "description": "",
     "main": "src/bot.js",
@@ -14,6 +14,7 @@
         "discord.js": "^12.1.1",
         "moment": "^2.24.0",
         "nodemon": "^2.0.2",
+        "numero-por-extenso": "^1.0.8",
         "rpg-dice-roller": "^4.0.2"
     }
 }
