@@ -1,9 +1,5 @@
 {
-    "imagens": [{
-            "name": "fallmap",
-            "description": "Territorios dos Ratos 1550 \n"
-        },
-        {
+    "city": [{
             "name": "mouseguard1",
             "description": "mouseguard1 \n"
         },
@@ -27,5 +23,22 @@
             "name": "sprucetuck",
             "description": "Sprucetuck \n"
         }
-    ]
+    ],
+    "map": [{
+        "name": "fallmap",
+        "description": "Territorios dos Ratos 1550 \n"
+    }],
+    "character": [{
+        "name": "Elymis",
+        "description": "Elymis \n"
+    }, {
+        "name": "Lieam",
+        "description": "Lieam \n"
+    }, {
+        "name": "Sadie",
+        "description": "Sadie \n"
+    }, {
+        "name": "Wyatt",
+        "description": "Wyatt \n"
+    }]
 }
