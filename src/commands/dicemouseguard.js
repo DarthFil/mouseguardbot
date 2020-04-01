@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const { DiceRoller } = require('rpg-dice-roller/lib/umd/bundle.js');
-const numero = require('numero-por-extenso');
 const Canvas = require('canvas');
 
 const applyText = (canvas, text) => {

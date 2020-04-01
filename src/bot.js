@@ -36,21 +36,25 @@ bot.once('ready', () => {
  * Envia a mensagem toda vez que um membro é adicionado
  */
 bot.on('guildMemberAdd', membro => {
-    membro.send(`Seja bem vindo! Siga as regars do servidor e divista-se 😀`)
+
+    const image = new Discord.MessageEmbed()
+        .attachFiles([`./src/assets/imagens/others/rpg.jpg`])
+        .setImage(`attachment://wellcome.jpg`);
+    membro.send(`Seja bem vindo! Siga as regars do servidor e divista-se 😀\nPara ver a lista de comandos digite: **!h**`, image)
 });
 
 /**
  * Lê as mensagens do canel
  */
 bot.on('message', msg => {
-    
+
     let prefix = config.prefix;
     let messageArray = msg.content.split(" ");
     let command = messageArray[0];
     let args = messageArray.slice(1);
     let flcmd = bot.commands.get(command.slice(prefix.length));
-    
-    
+
+
     /**
      * Ignora se a mensagem é originada do Bot
      */
